@@ -7,9 +7,9 @@ def main_planner(
     guests: int,
 ) -> None:  # Displays an output for a tea party, including tea treats and costs
     """Runs all functions and prints output of tea party"""
-    print("A Cozy Tea Party for ", guests, " People!")
-    print("Tea Bags: ", tea_bags(people=guests))
-    print("Treats: ", treats(people=guests))
+    print("A Cozy Tea Party for", guests, "People!")
+    print("Tea Bags:", tea_bags(people=guests))
+    print("Treats:", treats(people=guests))
     print(
         "Cost:",
         "$"
