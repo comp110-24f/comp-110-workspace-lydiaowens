@@ -66,6 +66,10 @@ def contains_char(
         print(
             "No instances of", letter, "found in", word
         )  # if there are no instances, tells user there are none
+    elif (
+        instances == 1
+    ):  # if there is exactly one instance, need to change grammar to "instance" instead of "instances"
+        print(instances, "instance of", letter, "found in", word)
     else:
         print(
             instances, "instances of", letter, "found in", word
