@@ -75,8 +75,3 @@ def contains_char(
 
 if __name__ == "__main__":
     main()
-
-# from exercises.ex02_chardle import input_word
-# from exercises.ex02_chardle import input_letter
-# from exercises.ex02_chardle import contains_char
-# contains_char(word = input_word(), letter = input_letter())
