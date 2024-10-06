@@ -6,6 +6,8 @@ __author__ = "730671309"
 # 1. all function
 def all(int_list: list[int], number: int) -> bool:
     index: int = 0  # counter to index each value of int_list
+    if len(int_list) == 0:
+        return False  # returns false if given list is empty
     while index < len(int_list):
         if (
             int_list[index] != number
