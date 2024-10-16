@@ -6,3 +6,7 @@ grocery_list.append("bananas")
 print(grocery_list)
 grocery_list.append("bananas")
 print(grocery_list)
+
+grocery_list: list[str] = ["eggs", "milk", "bread"]
+grocery_list.pop(1)
+print(grocery_list)
